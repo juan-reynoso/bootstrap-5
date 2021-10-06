@@ -1,0 +1,26 @@
+* Get the repo from github
+Clone the project
+#+begin_example
+https://github.com/juan-reynoso/bootstrap-5.git
+#+end_example
+
+** Load the project by quicklisp
+
+#+begin_example
+CL-USER> (ql:quickload "bootstrap-5")
+To load "bootstrap-5":
+  Load 1 ASDF system:
+    bootstrap-5
+; Loading "bootstrap-5"
+...........
+("bootstrap-5")
+CL-USER> (in-package :bootstrap-5)
+#<PACKAGE "BOOTSTRAP-5">
+BOOTSTRAP-5> (start-web-server)
+#<EASY-ACCEPTOR (host *, port 8090)>
+BOOTSTRAP-5> 
+#+end_example
+
+Open you browser and see the result:
+
+http://localhost:8090/index.html
