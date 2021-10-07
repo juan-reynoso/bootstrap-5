@@ -8,4 +8,7 @@
   :serial t
   :depends-on (#:hunchentoot #:yaclml)
   :components ((:file "package")
-               (:file "bootstrap-5")))
+	       (:file "bootstrap-5")
+	       (:file "login")
+	       (:file "sign-in")
+	       (:file "login-form")))

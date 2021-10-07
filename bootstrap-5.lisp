@@ -47,7 +47,6 @@
 			 :style "background-color: #006bbf;"
 			 (<:img :class "img-fluid"
 				:src "/img/lisp-alien.png"))
-		  
 		  (<:div :class "col-12 pt-4"
 			 (<:h1 :class "text-primary"
 			       "Bootstrap 5.1.2")
@@ -113,5 +112,7 @@
 (setq *dispatch-table*
       (list
        (create-regex-dispatcher "^/$" 'index)
-       (create-prefix-dispatcher  "/index.html" 'index)
+       (create-prefix-dispatcher "/index.html" 'index)
+       (create-prefix-dispatcher "/login.html" 'login-form)
+       (create-prefix-dispatcher "/sign-in.html" 'sign-in)
        (create-folder-dispatcher-and-handler "/img/" (concatenate 'string *wwwroot* "/img/"))))
