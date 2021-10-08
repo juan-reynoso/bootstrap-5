@@ -34,6 +34,8 @@
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css")
+	      (<:script :type "text/javascript"
+			:src "https://code.jquery.com/jquery-3.6.0.min.js")
 	      (<:title (<:as-html ,title)))
 	     (<:body
 	      ,@body))))
@@ -115,4 +117,7 @@
        (create-prefix-dispatcher "/index.html" 'index)
        (create-prefix-dispatcher "/login.html" 'login-form)
        (create-prefix-dispatcher "/sign-in.html" 'sign-in)
+       (create-prefix-dispatcher "/chunk" 'chunk-of-code)
+       (create-prefix-dispatcher "/reset-image" 'reset-image)
+       (create-prefix-dispatcher "/ajax-example.html" 'ajax-example)
        (create-folder-dispatcher-and-handler "/img/" (concatenate 'string *wwwroot* "/img/"))))

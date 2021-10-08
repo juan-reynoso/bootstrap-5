@@ -11,4 +11,5 @@
 	       (:file "bootstrap-5")
 	       (:file "login")
 	       (:file "sign-in")
-	       (:file "login-form")))
+	       (:file "login-form")
+	       (:file "ajax-example")))

@@ -28,3 +28,7 @@ http://localhost:8090/index.html
 Login example:
 
 http://localhost:8090/login.html
+
+Ajax example
+
+http://localhost:8090/ajax-example.html
