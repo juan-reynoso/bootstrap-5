@@ -24,7 +24,11 @@ display a message that the password is wrong."
 		   (<:p
 		    (<:span :class "fw-bold"
 			    "Hunchentoot Session cookie value. ")
-		    (<:as-html (session-cookie-value *session*) )))))
+		    (<:as-html (session-cookie-value *session*) ))
+		   (<:div :class "mt-3"
+			(<:a :class "fs-5"
+			     :href "/logout.html"
+			     "Logout")))))
 	(with-html "Ups"
 	  (<:div :class "container mt-3"
 		 (<:h1 :class "text-danger"
