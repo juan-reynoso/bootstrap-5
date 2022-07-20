@@ -33,7 +33,7 @@
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css")
 	      (<:script :type "text/javascript"
 			:src "https://code.jquery.com/jquery-3.6.0.min.js")
 	      (<:title (<:as-html ,title)))
@@ -116,6 +116,7 @@
        (create-regex-dispatcher "^/$" 'index)
        (create-prefix-dispatcher "/index.html" 'index)
        (create-prefix-dispatcher "/login.html" 'login-form)
+       (create-prefix-dispatcher "/logout.html" 'logout)
        (create-prefix-dispatcher "/sign-in.html" 'sign-in)
        (create-prefix-dispatcher "/chunk" 'chunk-of-code)
        (create-prefix-dispatcher "/reset-image" 'reset-image)
