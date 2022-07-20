@@ -1,4 +1,4 @@
-# Get started with Hunchentoot and Bootstrap 5
+# Getting started with Hunchentoot and Bootstrap 5
 
 ## Description
 This is a small project to start with Hunchentoot as a web server and Bootstrap as framework for building responsive sites.
