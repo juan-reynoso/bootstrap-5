@@ -10,6 +10,7 @@
   :components ((:file "package")
 	       (:file "bootstrap-5")
 	       (:file "login")
+	       (:file "logout")
 	       (:file "sign-in")
 	       (:file "login-form")
 	       (:file "ajax-example")))
