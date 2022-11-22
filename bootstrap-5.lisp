@@ -33,7 +33,7 @@
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css")
 	      (<:script :type "text/javascript"
 			:src "https://code.jquery.com/jquery-3.6.0.min.js")
 	      (<:title (<:as-html ,title)))
