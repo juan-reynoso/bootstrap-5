@@ -51,7 +51,7 @@
 				:src "/img/lisp-alien.png"))
 		  (<:div :class "col-12 pt-4"
 			 (<:h1 :class "text-primary"
-			       "Bootstrap v5.2.0 is finally stable!")
+			       "Bootstrap v5.2.3")
 			 (<:h3 :class "text-muted"
 			      "Build fast, responsive sites with Bootstrap."))
 		  (<:div :class "col-12 col-lg-6 pb-2"
