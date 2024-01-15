@@ -30,7 +30,7 @@
 		      :content "width=device-width, initial-scale=1")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
-		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css")
+		      :href "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css")
 	      (<:link :rel "stylesheet"
 		      :type "text/css"
 		      :href "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css")
@@ -51,16 +51,16 @@
 				:src "/img/lisp-alien.png"))
 		  (<:div :class "col-12 pt-4"
 			 (<:h1 :class "text-primary"
-			       "Bootstrap v5.2.3")
+			       "Bootstrap v5.3.2")
 			 (<:h3 :class "text-muted"
-			      "Build fast, responsive sites with Bootstrap."))
+			       "Build fast, responsive sites with Bootstrap."))
 		  (<:div :class "col-12 col-lg-6 pb-2"
 			 (<:img :class "img-fluid"
 				:src "/img/bs-hero.png"))
 		  (<:div :class "col-12 col-lg-6 pb-2"
 			 (<:div :class "list-group shadow"
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
-				     :href "https://getbootstrap.com/docs/5.1/getting-started/introduction/"
+				     :href "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
 				     :target "_blank"
 				     (<:span :class "bi bi-house-door-fill h2 text-success")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
@@ -70,7 +70,7 @@
 					     (<:p :class "mb-0"
 						  "Start"))))
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
-				     :href "https://getbootstrap.com/docs/5.1/examples/modals/"
+				     :href "https://getbootstrap.com/docs/5.3/examples/modals/"
 				     :target "_blank"
 				     (<:span :class "bi bi-square h2 text-primary")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
@@ -80,7 +80,7 @@
 					     (<:p :class "mb-0"
 						  "Transform modals to serve any purpose, from feature tours to dialogs."))))
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
-				     :href "https://getbootstrap.com/docs/5.1/examples/sidebars/"
+				     :href "https://getbootstrap.com/docs/5.3/examples/sidebars/"
 				     :target "_blank"
 				     (<:span :class "bi bi-layout-sidebar h2 text-primary")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
@@ -91,7 +91,7 @@
 						  "Common navigation patterns ideal for offcanvas or multi-column layouts."))))
 				
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
-				     :href "https://getbootstrap.com/docs/5.1/examples/carousel/"
+				     :href "https://getbootstrap.com/docs/5.3/examples/carousel/"
 				     :target "_blank"
 				     (<:span :class "bi bi-images h2 text-primary")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
@@ -101,7 +101,7 @@
 					     (<:p :class "mb-0"
 						  "Customize the navbar and carousel, then add some new components."))))
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
-				     :href "https://getbootstrap.com/docs/5.1/examples/"
+				     :href "https://getbootstrap.com/docs/5.3/examples/"
 				     :target "_blank"
 				     (<:span :class "bi bi-search h3 text-primary")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
