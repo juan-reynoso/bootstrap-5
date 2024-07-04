@@ -1,5 +1,5 @@
 (in-package #:bootstrap-5)
-
+;;; The login for the application
 (defun login ()
   "Start session and set random number as user-id"
   (let ((user-id (random 100)))
