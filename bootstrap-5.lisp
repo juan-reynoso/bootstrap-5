@@ -45,16 +45,13 @@
   (with-html "index"
     (<:div :class "container"
 	   (<:div :class "row"
-		  (<:div :class "col-12"
-			 :style "background-color: #006bbf;"
-			 (<:img :class "img-fluid"
-				:src "/img/lisp-alien.png"))
-		  (<:div :class "col-12 pt-4"
+		  
+		  (<:div :class "col-12 py-5"
 			 (<:h1 :class "text-primary"
-			       "Bootstrap v5.3.2")
-			 (<:h3 :class "text-muted"
-			       "Build fast, responsive sites with Bootstrap."))
-		  (<:div :class "col-12 col-lg-6 pb-2"
+			       "Introducción a ISC")
+			 (<:h4 :class "text-muted"
+			       "Formar profesionales con capacidad analítica, crítica y creativa capaces de diseñar y desarrollar sistemas de software que permitan propiciar el fortalecimiento de la tecnológia nacional, administrar proyectos de desarrollo de software y especificar y evaluar configuraciones de sistemas de cómputo en todo tipo de empresas."))
+		  (<:div :class "col-12 col-lg-6 pt-5"
 			 (<:img :class "img-fluid"
 				:src "/img/bs-hero.png"))
 		  (<:div :class "col-12 col-lg-6 pb-2"
@@ -62,54 +59,54 @@
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
 				     :href "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
 				     :target "_blank"
-				     (<:span :class "bi bi-house-door-fill h2 text-success")
+				     (<:span :class "bi bi-router h2 text-primary")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
 					    (<:div
 					     (<:h6 :class "mb-0 text-dark"
-						   "Home")
+						   "Redes")
 					     (<:p :class "mb-0"
-						  "Start"))))
+						  "Desarrollan e implementan servidores de red"))))
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
 				     :href "https://getbootstrap.com/docs/5.3/examples/modals/"
 				     :target "_blank"
-				     (<:span :class "bi bi-square h2 text-primary")
+				     (<:span :class "bi bi-microsoft h2 text-info")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
 					    (<:div
 					     (<:h6 :class "mb-0"
-						   "Modals")
+						   "Sistemas operativos")
 					     (<:p :class "mb-0"
-						  "Transform modals to serve any purpose, from feature tours to dialogs."))))
+						  "Configuran y administran virtualización de sistemas operativos"))))
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
 				     :href "https://getbootstrap.com/docs/5.3/examples/sidebars/"
 				     :target "_blank"
-				     (<:span :class "bi bi-layout-sidebar h2 text-primary")
+				     (<:span :class "bi bi-code-slash h2 text-primary")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
 					    (<:div
 					     (<:h6 :class "mb-0"
-						   "Sidebars")
+						   "Programación")
 					     (<:p :class "mb-0"
-						  "Common navigation patterns ideal for offcanvas or multi-column layouts."))))
+						  "Móvil, web, etc."))))
 				
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
 				     :href "https://getbootstrap.com/docs/5.3/examples/carousel/"
 				     :target "_blank"
-				     (<:span :class "bi bi-images h2 text-primary")
+				     (<:span :class "bi bi-database-check h2 text-danger")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
 					    (<:div
 					     (<:h6 :class "mb-0"
-						   "Carousel")
+						   "Base de datos")
 					     (<:p :class "mb-0"
-						  "Customize the navbar and carousel, then add some new components."))))
+						  "Diseñan, desarrollan e implementan bases de datos"))))
 				(<:a :class "list-group-item list-group-item-action d-flex gap-3 py-3"
 				     :href "https://getbootstrap.com/docs/5.3/examples/"
 				     :target "_blank"
-				     (<:span :class "bi bi-search h3 text-primary")
+				     (<:span :class "bi bi-shield-fill-check h3 text-success")
 				     (<:div :class "d-flex gap-2 w-100 justify-content-between"
 					    (<:div
 					     (<:h6 :class "mb-0"
-						   "Check it out")
+						   "Seguridad informática")
 					     (<:p :class "mb-0"
-						  "Extensive prebuilt components, and powerful JavaScript plugins."))))))))))
+						  "Aplican aspectos legales y regulatorios en ciberseguridad"))))))))))
 
 (setq *dispatch-table*
       (list
